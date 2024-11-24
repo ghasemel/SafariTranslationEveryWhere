@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73158BE22CF280150041DBCB /* SafariTranslationEveryWhere Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 73158BE12CF280150041DBCB /* SafariTranslationEveryWhere Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		73158C112CF3BF780041DBCB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 73158C102CF3BF710041DBCB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +27,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				73158BE22CF280150041DBCB /* SafariTranslationEveryWhere Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,8 +34,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		73158BC52CF280140041DBCB /* SafariTranslationEveryWhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariTranslationEveryWhere.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		73158BE12CF280150041DBCB /* SafariTranslationEveryWhere Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SafariTranslationEveryWhere Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73158BC52CF280140041DBCB /* SafariTranslationEveryWhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SafariTranslationEveryWhere.app; path = /Users/raouf/Developer/apple/safari/SafariTranslationEveryWhere/build/Debug/SafariTranslationEveryWhere.app; sourceTree = "<absolute>"; };
+		73158BE12CF280150041DBCB /* SafariTranslationEveryWhere Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = "SafariTranslationEveryWhere Extension.appex"; path = "/Users/raouf/Developer/apple/safari/SafariTranslationEveryWhere/build/Debug/SafariTranslationEveryWhere Extension.appex"; sourceTree = "<absolute>"; };
+		73158C102CF3BF710041DBCB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -90,19 +90,10 @@
 		73158BBC2CF280140041DBCB = {
 			isa = PBXGroup;
 			children = (
+				73158C102CF3BF710041DBCB /* README.md */,
 				73158BC72CF280140041DBCB /* SafariTranslationEveryWhere */,
 				73158BE52CF280150041DBCB /* SafariTranslationEveryWhere Extension */,
-				73158BC62CF280140041DBCB /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		73158BC62CF280140041DBCB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				73158BC52CF280140041DBCB /* SafariTranslationEveryWhere.app */,
-				73158BE12CF280150041DBCB /* SafariTranslationEveryWhere Extension.appex */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +173,7 @@
 			mainGroup = 73158BBC2CF280140041DBCB;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 73158BC62CF280140041DBCB /* Products */;
+			productRefGroup = 73158BBC2CF280140041DBCB;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -197,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73158C112CF3BF780041DBCB /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
