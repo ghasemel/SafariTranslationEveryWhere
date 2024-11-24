@@ -9,5 +9,11 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).SafariWebExtensionHandler</string>
 	</dict>
+    <key>SFSafariWebExtensionPermissions</key>
+    <array>
+        <string>activeTab</string>
+        <string>contextMenus</string>
+    </array>
+
 </dict>
 </plist>
